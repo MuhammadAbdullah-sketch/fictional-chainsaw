@@ -1,4 +1,4 @@
-a = input()
+a = input("Enter your name: ")
 
-print (a)
-print ("good")
+print(a)
+print("good")
