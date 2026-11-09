@@ -1,13 +1,15 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    int n;
-    do {
-        cout << "1 se 10 ke beech number daalo: ";
-        cin >> n;          // input main() mein hi
-    } while (n < 1 || n > 10);
+ float cal(int v, int d){
+    return (v * d) / 60;
+ }
+int main(){
+    int v, d;
 
-    cout << "Aapne daala: " << n << endl;
+    cout << "Enter the videos (v) and durations (d): ";
+    cin >> v >> d;
+    cout << cal(v, d) << endl;
     return 0;
+
 }
