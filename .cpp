@@ -1,12 +1,13 @@
 #include <iostream>
-#include <string>
-using  namespace std;
-int main() {
+using namespace std;
 
-    int x = 5;
-    do{
-        cout << " * ";
-        x--;
-    }
-    while (x >3);
+int main() {
+    int n;
+    do {
+        cout << "1 se 10 ke beech number daalo: ";
+        cin >> n;          // input main() mein hi
+    } while (n < 1 || n > 10);
+
+    cout << "Aapne daala: " << n << endl;
+    return 0;
 }
